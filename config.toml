@@ -14,3 +14,7 @@ OPENAI = "<YOUR_OPENAI_API_KEY>"
 
 [API_ENDPOINTS]
 BING = "https://api.bing.microsoft.com/v7.0/search"
+AZURE_OPENAI_ENDPOINT = "https://<YOUR_AZURE_OPENAI_ENDPOINT>.openai.azure.com/"
+
+[DEPENDENCIES]
+azure-ai-openai = "1.0.0-beta.7"

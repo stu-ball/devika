@@ -13,8 +13,9 @@ class Model(Enum):
     CLAUDE_3_OPUS = ("Claude 3 Opus", "claude-3-opus-20240229")
     CLAUDE_3_SONNET = ("Claude 3 Sonnet", "claude-3-sonnet-20240229")
     CLAUDE_3_HAIKU = ("Claude 3 Haiku", "claude-3-haiku-20240307")
-    GPT_4_TURBO = ("GPT-4 Turbo", "gpt-4-0125-preview")
-    GPT_3_5 = ("GPT-3.5", "gpt-3.5-turbo-0125")
+    GPT_4= ("GPT-4", "gpt-4")
+    GPT_4_32K = ("GPT-4", "gpt-4-32k")
+    GPT_3_5 = ("GPT-3.5", "gpt-35-turbo")
     OLLAMA_MODELS = [
         (
             model["name"].split(":")[0],
